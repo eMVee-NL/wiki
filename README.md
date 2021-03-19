@@ -2,7 +2,7 @@
 A wiki for during a pentest - ctf   
 
 # Disclaimer
-All the information which is published in this wiki is for educational purpose, playing CTF or used during an authorized penetration test.   
+All the information which is published in this wiki is for educational purpose, playing CTF or used during an authorized penetration test.   By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.
 
 ## Usage
 First clone the wiki via the CLI: `git clone https://github.com/mvdvaart/wiki.git`   
