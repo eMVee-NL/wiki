@@ -9,19 +9,22 @@ Websites often have multiple (sub)directories available. To identify those direc
 
   * Dirb
   * Dirbuster
-  * Dirsearch
+  * [Dirsearch](dirsearch.md)
   * Gobuster
   * Wfuzz
 
 Technologies used
 ---------
 Websites can use several technologies, while pentesting this can be an advanced for exploiting the website.
+ 
   * whatweb
   * Wappalyzer
-
+  
 __whatweb__
 whatweb can be used via the CLI to identify technologies running on the website.
-
+```bash
+whatweb -u http://www.example.com
+```
 
 __Wappalyzer__
 Wappalyzer is an add-on in Firefox which can indicate the technologies used on the website.
@@ -39,12 +42,19 @@ wpscan -u http://www.example.com -e u
 
 
 __Drupal - DROOPSCAN__
-
+Drupal is a CMS which can be enumerated with DROOPSCAN.
+```bash
+droopscan -u http://www.example.com -e u
+```
 __Joomla - JOOMSCAN__
-
+Joomla is a CMS which can be enumerated with JOOMSCAN.
+```bash
+joomscan -u http://www.example.com -e u
+```
 Vulnerability scan
 ---------
-![](http://placekitten.com/g/800/800)
-The above image floats left to this text.
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-[...]
+When a webserver is running it is possible to identify vulnerabilities with
+  
+  * Nikto
+  * OWASP ZAP
+

@@ -3,7 +3,7 @@
 [Information Gathering]()
 
   * # Passive
-  * [Public information](subitem1.md)
+  * [Public information](public-information.md)
   * [Whois](subitem2.md)
   - - - -
   * # Active
