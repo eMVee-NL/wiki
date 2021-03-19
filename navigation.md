@@ -3,7 +3,7 @@
 [Information Gathering]()
 
   * # Passive
-  * [Netcraft](subitem1.md)
+  * [Public information](subitem1.md)
   * [Whois](subitem2.md)
   - - - -
   * # Active
@@ -15,7 +15,9 @@
 [Enumeration]()
   
   * # Scanning
-  * [Scanning](scanning.md)
+  * [IP](ip-scanning.md)
+  * [Port](port-scanning.md)
+  * [Web](web-scanning.md)
   - - - -
 
 [Exploitation]()

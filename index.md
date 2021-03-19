@@ -1,7 +1,9 @@
-Heading
+Wiki for penetration testing and CTF
 =======
 
-Section 1
+Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.
+
+Information gathering
 ---------
 The images below float right to this text.
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -9,7 +11,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 ![](http://placekitten.com/g/600/600)
 [...]
 
-Section 2
+Enumeration
 ---------
 ![](http://placekitten.com/g/800/800)
 The above image floats left to this text.
@@ -17,7 +19,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 [...]
 
 
-Section 3
+Exploiting
 ---------
 ![](http://placekitten.com/g/600/350)
 ![](http://placekitten.com/g/600/350)
