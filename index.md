@@ -7,7 +7,7 @@ Information gathering
 ---------
 The images below float right to this text.
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-![](http://placekitten.com/g/600/600)
+![hacker](img/hacker.png?raw=true)
 ![](http://placekitten.com/g/600/600)
 [...]
 

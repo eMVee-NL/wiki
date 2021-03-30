@@ -3,9 +3,41 @@ Port scanning
 
 Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.
 
+Massscan
+---------
+Massscan is a CLI tool which can be used to enumerate the ports which are open on a target.
+
+```bash
+$ sudo masscan -p 1-65535 10.10.10.30 -e tun0 --rate=1000
+[sudo] password for user: 
+Starting masscan 1.3.2 (http://bit.ly/14GZzcT) at 2021-03-21 10:09:24 GMT
+Initiating SYN Stealth Scan
+Scanning 1 hosts [65535 ports/host]
+Discovered open port 636/tcp on 10.10.10.30                                    
+Discovered open port 49676/tcp on 10.10.10.30
+---snip--   
+```
+
 nmap
 ---------
-nmap can be used to identify open ports and running services on those ports.
+nmap can be used to identify open ports, running services on those ports and even the Operating System of the target(s). This tool has a lot of options which can be used.
+In this part we will describe a very basic usage, otherwise we have to write a whole book. 
+
+sudo nmap -sS -A $ip
+[sudo] password for user
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-03-21 10:23 CET
+Nmap scan report for 10.10.10.27
+Host is up (0.025s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Windows Server 2019 Standard 17763 microsoft-ds
+1433/tcp open  ms-sql-s     Microsoft SQL Server 2017 14.00.1000.00; RTM
+| ms-sql-ntlm-info: 
+
+---snip--
+
 
 Common ports
 ---------
@@ -31,10 +63,13 @@ Common ports
 | 389 | Lightweight Directory Access Protocol (LDAP) | TCP and UDP |
 | 443 | HTTP with Secure Sockets Layer (SSL) | TCP and UDP |
 | 989, 990 | FTP over SSL/TLS (implicit mode) | TCP |
+| 1433 | MS SQL | TCP |
 | 3389 | Remote Desktop Protocol | TCP and UDP |
 
 Ports
 ---------
+There are 65535 ports which can be used on a computer. Those ports can be devided in: Well-known ports, Registered ports and Dynamic, private or ephemeral ports.
+https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
 
 | Port number   | service       |
 | ------------- |:-------------:|

@@ -7,10 +7,10 @@ Directory enumeration
 ---------
 Websites often have multiple (sub)directories available. To identify those directories it is possible to enumerate them with bruteforcing and wordlists.
 
-  * Dirb
-  * Dirbuster
+  * [Dirb](dirb.md)
+  * [Dirbuster](dirbuster.md)
   * [Dirsearch](dirsearch.md)
-  * Gobuster
+  * [Gobuster](gobuster.md)
   * Wfuzz
 
 Technologies used
@@ -27,7 +27,7 @@ whatweb -u http://www.example.com
 ```
 
 __Wappalyzer__
-Wappalyzer is an add-on in Firefox which can indicate the technologies used on the website.
+Wappalyzer is an [add-on in Firefox](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/) which can indicate the technologies used on the website.
 
 CMS
 ---------
@@ -58,3 +58,21 @@ When a webserver is running it is possible to identify vulnerabilities with
   * Nikto
   * OWASP ZAP
 
+WebDAV
+--------
+WebDAV (Web Distributed Authoring and Versioning) is an extension of the Hypertext Transfer Protocol (HTTP) that allows clients to perform remote Web content authoring operations. 
+Cadaver is a tool which can be used to authenticate and upload files to the web server.
+```bash
+cadaver http://www.example.com/webdav
+```
+
+
+Local File Inclusion - LFI
+--------
+**Linux**
+../../../../../etc/passwd
+**Windows**
+../../../../../../boot.ini
+../../../../../../WINDOWS/system32/config/sam
+../../../../../../WINDOWS/system32/repair/system
+../../../../../../WINDOWS/system32/repair/sam
