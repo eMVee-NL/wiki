@@ -62,5 +62,10 @@ Visit: [OWASP Cheatsheets](https://cheatsheetseries.owasp.org/)
 
 OSINT Framework
 ---------
-OSINT FRamework.......
+OSINT Framework.......
 Visit: [OSINT Framework](https://osintframework.com/)
+
+This person does not exist
+---------
+Photos of persons which are generated.
+Visit: [This person does not exist](https://thispersondoesnotexist.com/)
