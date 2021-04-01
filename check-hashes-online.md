@@ -1,7 +1,7 @@
 Check hashes online
 =======
 
-Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.
+__Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.__
 
 There are several public websites were it is possible to check compromised hashes of passwords. Those websites are often faster with returning a plain text password rather then cracking it with one of the tools.   
 

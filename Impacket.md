@@ -1,5 +1,8 @@
 Impacket
 =======
+
+__Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.__
+
 Impacket is developed by [Secureauth](https://www.secureauth.com/labs/open-source-tools/impacket/) and released on [Github](https://github.com/SecureAuthCorp/impacket).
 
 

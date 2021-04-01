@@ -1,7 +1,7 @@
 DNS Information
 =======
 
-Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.
+__Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.__
 
 Whois
 ---------
@@ -77,11 +77,3 @@ In the example below dnsrecon is using a wordlist for a brute force scan.
 dnsrecon -d example.com -D /usr/share/wordlists/dnsmap.txt -t brt
 [*] Performing host and subdomain brute force against example.com
 ```
-
-
-
-https://dnsdumpster.com/
-https://www.yougetsignal.com/tools/web-sites-on-web-server/
-https://www.whois.net/
-https://builtwith.com/
-https://whatcms.org/

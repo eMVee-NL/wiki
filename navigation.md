@@ -5,8 +5,6 @@
 
   * [Public information](public-information.md)
   * [DNS information](DNS-information.md)
-  * [SubMenu Item 3](subitem3.md)
-  * [SubMenu Item 3](subitem3.md)
 
 [Enumeration]()
   
@@ -16,7 +14,7 @@
   * [Web](web-scanning.md)
   * # Local enumeration
   * [Linux](linux-local-enumeration.md)
-  * [Windows](port-scanning.md)
+  * [Windows](windows-local-enumeration.md)
 
 [Privelege escalation]()
   
@@ -73,6 +71,4 @@
   * [SQL Injection cheatsheet](cheatsheet-sql-injection.md)
   * [Network cheatsheet](cheatsheet-network.md)
 
-
-[Checklist](checklist.md)
 [Useful](useful.md)

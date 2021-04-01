@@ -1,27 +1,6 @@
 Wiki for penetration testing and CTF
 =======
 
-Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.
+__Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.__
 
-Information gathering
----------
-The images below float right to this text.
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-![hacker](img/hacker.png?raw=true)
-![](http://placekitten.com/g/600/600)
-[...]
-
-Enumeration
----------
-![](http://placekitten.com/g/800/800)
-The above image floats left to this text.
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-[...]
-
-
-Exploiting
----------
-![](http://placekitten.com/g/600/350)
-![](http://placekitten.com/g/600/350)
-
-This text is preceded by two images, that span across the whole Page width.
+This wiki is created as a kind of knowledge base for during **authorized pentesting or CTF games**.

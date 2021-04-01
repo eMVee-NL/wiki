@@ -1,7 +1,7 @@
 Useful information
 =======
 
-Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.
+__Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.__
 
 
 Pentestmonkey
@@ -59,3 +59,8 @@ OWASP cheatsheets
 OWASP published a lot of information about security online. Even some nice cheatsheets which could be handy.
 
 Visit: [OWASP Cheatsheets](https://cheatsheetseries.owasp.org/)
+
+OSINT Framework
+---------
+OSINT FRamework.......
+Visit: [OSINT Framework](https://osintframework.com/)
