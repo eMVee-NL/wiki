@@ -18,3 +18,7 @@ Online hash crack
 MD5 decrypt
 ---------
 [MD5 decrypt](https://md5decrypt.net/en/)
+
+Hashes.com
+---------
+[Hashes](https://hashes.com/en/decrypt/hash)
