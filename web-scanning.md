@@ -5,13 +5,15 @@ __Attention: The articles published on this wiki are for education purpose, to u
 
 Directory enumeration
 ---------
-Websites often have multiple (sub)directories available. To identify those directories it is possible to enumerate them with bruteforcing and wordlists.
+Websites often have multiple (sub)directories available. To identify those directories it is possible to enumerate them with bruteforcing or by using [wordlists](wordlists.md).
 
   * [Dirb](dirb.md)
   * [Dirbuster](dirbuster.md)
   * [Dirsearch](dirsearch.md)
   * [Gobuster](gobuster.md)
-  * Wfuzz
+  * [Wfuzz](wfuzz.md)
+  * [Amass](amass.md)
+  * [Sublist3r](sublist3r.md)
 
 Technologies used
 ---------

@@ -29,7 +29,7 @@ Robtex
 
 Visual site mapper
 ---------
-[Visual site mapper](http://www.visualsitemapper.com/)
+[Visual site mapper](http://www.visualsitemapper.com/) is a free service that can quickly show a map of any public website.
 
 What CMS
 ---------

@@ -27,14 +27,15 @@
 
 [Passwords]()
   
+  * [Wordlists](wordlists.md)
   * # Generate
-  * [Cewl](subitem1.md)
-  * [Crunch](subitem2.md)
+  * [Cewl](cewl.md)
+  * [Crunch](crunch.md)
   - - - -
   * # Bruteforce
-  * [Hashcat](subitem3.md)
-  * [John](subitem3.md)
-  * [ZIP](subitem3.md)
+  * [Hashcat](hashcat.md)
+  * [John](john.md)
+  * [ZIP](zip.md)
   * # Public
   * [Default passwords](default-passwords.md)
   * [Check hashes online](check-hashes-online.md)
@@ -45,7 +46,7 @@
   * [WEP](wep.md)
   * [WPA2](wpa2.md)
   * [WPS](wps.md)
-  * [AirGraph](subitem2.md)
+  * [AirGraph](airgraph.md)
   - - - -
   * # Fake Access Point
   * [Fluxion](fluxion.md)
@@ -55,12 +56,18 @@
   
   * [BeeF](beef.md)
   * [SET](set.md)
+  * [EvilGinx2](evilginx2.md)
   * [Modlishka](modlishka.md)
   
 [Tools]()
   
-  * [Burp Suite](beef.md)
-  * [Hydra](set.md)
+  * [Burp Suite](burpsuite.md)
+  * [Hydra](hydra.md)
+
+[Physical]()
+  
+  * [Linux]()
+  * [Windows]()
 
 [Cheatsheets]()
   
