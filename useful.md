@@ -67,5 +67,14 @@ Visit: [OSINT Framework](https://osintframework.com/)
 
 This person does not exist
 ---------
-Photos of persons which are generated.
+This websites generates awesome photos of people who don't exist. These photos can be used for a fake profile.
+Every time the website is refreshed a new photo is generated
 Visit: [This person does not exist](https://thispersondoesnotexist.com/)
+
+CVSS calculator v3.1
+---------
+Common Vulnerability Scoring System Calculator or shorted to [CVSS calculator v3.1](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) can be used to calculate a vulnerability score.
+
+OWASP risk calculator
+---------
+[OWASP risk calculator](https://www.owasp-risk-rating.com/) based on the [OWASP risk rating methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology)

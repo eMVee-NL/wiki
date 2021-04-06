@@ -16,6 +16,18 @@
   * [Linux](linux-local-enumeration.md)
   * [Windows](windows-local-enumeration.md)
 
+[Exploitation]()
+  
+  * # Web
+  * [Webshells](webshells.md)
+  - - - -  
+  * # Linux
+  * [Linux]()
+  - - - -
+  * # Windows
+  * [Windows]()
+  * [CrackMapExec]()
+
 [Privelege escalation]()
   
   * # Linux
@@ -29,10 +41,11 @@
   
   * [Wordlists](wordlists.md)
   * # Generate
-  * [Cewl](cewl.md)
-  * [Crunch](crunch.md)
+  * [CeWL](Passwords/cewl.md)
+  * [Crunch](Passwords/crunch.md)
   - - - -
   * # Bruteforce
+  * [Identify hash](Passwords/hash-identify.md)
   * [Hashcat](hashcat.md)
   * [John](john.md)
   * [ZIP](zip.md)
@@ -43,10 +56,10 @@
 [WiFi]()
   
   * # Wifi hacking
-  * [WEP](wep.md)
-  * [WPA2](wpa2.md)
-  * [WPS](wps.md)
-  * [AirGraph](airgraph.md)
+  * [WEP](WiFi/wep.md)
+  * [WPA2](WiFi/wpa2.md)
+  * [WPS](WiFi/wps.md)
+  * [AirGraph](WiFi/airgraph.md)
   - - - -
   * # Fake Access Point
   * [Fluxion](fluxion.md)
@@ -62,20 +75,20 @@
 [Tools]()
   
   * [Burp Suite](burpsuite.md)
-  * [Hydra](hydra.md)
+  * [Hydra](Tools/hydra.md)
 
 [Physical]()
   
-  * [Linux]()
-  * [Windows]()
+  * [Linux](Physical/linux.md)
+  * [Windows](Physical/windows.md)
 
 [Cheatsheets]()
   
-  * [NMAP cheatsheet](cheatsheet-nmap.md)
-  * [Reverse shell cheatsheet](cheatsheet-reverse-shell.md)
-  * [Spawning shell cheatsheet](cheatsheet-spawning-shell.md)
-  * [File transfer cheatsheet](cheatsheet-file-transfer.md)
-  * [SQL Injection cheatsheet](cheatsheet-sql-injection.md)
-  * [Network cheatsheet](cheatsheet-network.md)
+  * [NMAP cheatsheet](Cheatsheets/cheatsheet-nmap.md)
+  * [Reverse shell cheatsheet](Cheatsheets/cheatsheet-reverse-shell.md)
+  * [Spawning shell cheatsheet](Cheatsheets/cheatsheet-spawning-shell.md)
+  * [File transfer cheatsheet](Cheatsheets/cheatsheet-file-transfer.md)
+  * [SQL Injection cheatsheet](Cheatsheets/cheatsheet-sql-injection.md)
+  * [Network cheatsheet](Cheatsheets/cheatsheet-network.md)
 
 [Useful](useful.md)

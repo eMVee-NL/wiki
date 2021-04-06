@@ -41,7 +41,7 @@ There are tools like whatweb and wappalyzer available to detect which technologi
 
 Security headers
 ---------
-[Security headers](https://securityheaders.com/?q=&hide=on&followRedirects=on)
+[Security headers](https://securityheaders.com/?q=&hide=on&followRedirects=on) is a website where the HTTP response headers can be analyzed.
 
 SSL labs
 ---------
