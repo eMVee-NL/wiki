@@ -60,6 +60,10 @@ When a webserver is running it is possible to identify vulnerabilities with
   * [Nikto](nikto.md)
   * OWASP ZAP
 
+View Source
+--------
+It's a good idea to check the source of a website. Sometimes useful information is disclosed in the source code. It might be an internal IP address, or a username/password in the comments as well version numbers of plugins and other applications.
+
 WebDAV
 --------
 WebDAV (Web Distributed Authoring and Versioning) is an extension of the Hypertext Transfer Protocol (HTTP) that allows clients to perform remote Web content authoring operations. 
