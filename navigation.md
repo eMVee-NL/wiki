@@ -10,13 +10,17 @@
   * # Remote enumeration
   * [IP](ip-scanning.md)
   * [Port](port-scanning.md)
-  * [Web](web-scanning.md)
+  * # Web enumeration
+  * [Web](Enumeration/Web/web-enumeration.md)
   * # Local enumeration
   * [Linux](linux-local-enumeration.md)
   * [Windows](windows-local-enumeration.md)
 
 [3. Identify Vulnerabilities]()
 
+  * [Nessus](.md)
+  * [Openvas](.md)
+  * [NMAP](.md)
 
 [4. Exploitation]()
   
@@ -31,18 +35,17 @@
   * [CrackMapExec]()
 
 [5. Post Exploitation]()
-
-
-[6. Cover Your Tracks]()
-
-[Privelege escalation]()
   
   * # Linux
+  * [Privelege escalation](.md)
   * [linEnum](subitem1.md)
   * [linPeas](subitem2.md)
   - - - -
   * # Windows
+  * [Privelege escalation](.md)
   * [winPeas](subitem3.md)
+
+[6. Cover Your Tracks]()
 
 [Passwords]()
   

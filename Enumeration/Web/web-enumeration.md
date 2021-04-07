@@ -1,11 +1,11 @@
-Webscanning
+Web enumeration
 =======
 
 __Attention: The articles published on this wiki are for education purpose, to use during a CTF or for an authorized penetrationtest. By using the wiki, you've agreed to use this knowledge in an ethical way and do not evil in any perspective.__
 
 Directory enumeration
 ---------
-Websites often have multiple (sub)directories available. To identify those directories it is possible to enumerate them with bruteforcing or by using [wordlists](wordlists.md).
+Websites often have multiple (sub)directories available. To identify those directories it is possible to enumerate them with bruteforcing or by using [wordlists](../../Passwords/wordlists.md).
 
   * [Dirb](dirb.md)
   * [Dirbuster](dirbuster.md)
@@ -57,7 +57,7 @@ Vulnerability scan
 ---------
 When a webserver is running it is possible to identify vulnerabilities with
   
-  * Nikto
+  * [Nikto](nikto.md)
   * OWASP ZAP
 
 WebDAV
