@@ -1,12 +1,11 @@
 # ITechnology
 [gimmick:theme](slate)
-[Information Gathering]()
+[1. Reconnaissance and Footprinting]()
 
+  * [Public information](Reconnaissance/public-information.md)
+  * [DNS information](Reconnaissance/DNS-information.md)
 
-  * [Public information](public-information.md)
-  * [DNS information](DNS-information.md)
-
-[Enumeration]()
+[2. Enumeration]()
   
   * # Remote enumeration
   * [IP](ip-scanning.md)
@@ -16,7 +15,10 @@
   * [Linux](linux-local-enumeration.md)
   * [Windows](windows-local-enumeration.md)
 
-[Exploitation]()
+[3. Identify Vulnerabilities]()
+
+
+[4. Exploitation]()
   
   * # Web
   * [Webshells](webshells.md)
@@ -27,6 +29,11 @@
   * # Windows
   * [Windows]()
   * [CrackMapExec]()
+
+[5. Post Exploitation]()
+
+
+[6. Cover Your Tracks]()
 
 [Privelege escalation]()
   
@@ -39,19 +46,19 @@
 
 [Passwords]()
   
-  * [Wordlists](wordlists.md)
+  * [Wordlists](Passwords/wordlists.md)
   * # Generate
   * [CeWL](Passwords/cewl.md)
   * [Crunch](Passwords/crunch.md)
   - - - -
   * # Bruteforce
   * [Identify hash](Passwords/hash-identify.md)
-  * [Hashcat](hashcat.md)
-  * [John](john.md)
-  * [ZIP](zip.md)
+  * [Hashcat](Passwords/hashcat.md)
+  * [John](Passwords/john.md)
+  * [ZIP](Passwords/zip.md)
   * # Public
-  * [Default passwords](default-passwords.md)
-  * [Check hashes online](check-hashes-online.md)
+  * [Default passwords](Passwords/default-passwords.md)
+  * [Check hashes online](Passwords/check-hashes-online.md)
 
 [WiFi]()
   
@@ -62,8 +69,8 @@
   * [AirGraph](WiFi/airgraph.md)
   - - - -
   * # Fake Access Point
-  * [Fluxion](fluxion.md)
-  * [EvilTwin](eviltwin.md)
+  * [Fluxion](WiFi/fluxion.md)
+  * [EvilTwin](WiFi/eviltwin.md)
 
 [Social Engineering]()
   
@@ -77,7 +84,7 @@
   * [Burp Suite](burpsuite.md)
   * [Hydra](Tools/hydra.md)
 
-[Physical]()
+[Physical attack]()
   
   * [Linux](Physical/linux.md)
   * [Windows](Physical/windows.md)

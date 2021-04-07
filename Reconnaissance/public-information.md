@@ -17,15 +17,15 @@ A great website to get all kind of information such as IP addresses, mail server
 
 Who.is
 ---------
-[Who.is](https://who.is/)
+Search the [Who.is](https://who.is/) database, look up domain and IP owner information, and check out dozens of other statistics.
 
 Domain big data
 ---------
-[Domain big data](https://domainbigdata.com/)
+[Domain big data](https://domainbigdata.com/) is a big database of domains and whois records. DomainBigData is one of the leader in domain names and online investigation tools. Search in the IP address space and in all domain names to find ‘cyber fingerprint’ data on Internet. 
 
 Robtex
 ---------
-[Robtex](https://www.robtex.com/dns-lookup/)
+[Robtex](https://www.robtex.com/dns-lookup/) uses various sources to gather public information about IP numbers, domain names, host names, Autonomous systems, routes etc. It then indexes the data in a big database and provide free access to the data. 
 
 Visual site mapper
 ---------
