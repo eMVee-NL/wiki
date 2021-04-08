@@ -55,6 +55,10 @@ Internet.nl
  - HTTPS: secure connection?
  - Security options: application security options set?
 
+suIP.biz
+---------
+ [suIP.biz](https://suip.biz/?) hosts several functions for information gathering. Via this website you could check for exampe what CMS software is used.
+
 Wayback machine
 ---------
 [Wayback machine](https://web.archive.org/) is an Internet Archive where you can visit websites from the past if they are archived.

@@ -30,3 +30,10 @@ To identify a hash the application can be starterd via the terminal.
 Possible Hashs:
 [+] MD5
 ```
+
+Identify hash online
+---------
+
+Warning: Only use those websites for compromised hashes during a CTF event or a vulnerable machine in a lab environment.
+
+[Suip.biz](https://suip.biz/?act=hashtag) is a online hash identifier. Use this only for hashesh found during a CTF event and during this event the offline versions are not sufficient enough.

@@ -43,8 +43,8 @@ wpscan -u http://www.example.com -e u
 ```
 
 
-__Drupal - DROOPSCAN__
-Drupal is a CMS which can be enumerated with DROOPSCAN.
+__Drupal - DROOPESCAN__
+Drupal is a CMS which can be enumerated with DROOPESCAN.
 ```bash
 droopescan scan drupal -u http://www.example.com -t32
 ```
