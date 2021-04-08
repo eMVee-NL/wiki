@@ -100,5 +100,6 @@
   * [File transfer cheatsheet](Cheatsheets/cheatsheet-file-transfer.md)
   * [SQL Injection cheatsheet](Cheatsheets/cheatsheet-sql-injection.md)
   * [Network cheatsheet](Cheatsheets/cheatsheet-network.md)
+  * [MySQL cheatsheet](Cheatsheets/cheatsheet-MySQL.md)
 
 [Useful](useful.md)

@@ -46,7 +46,7 @@ wpscan -u http://www.example.com -e u
 __Drupal - DROOPSCAN__
 Drupal is a CMS which can be enumerated with DROOPSCAN.
 ```bash
-droopscan -u http://www.example.com -e u
+droopescan scan drupal -u http://www.example.com -t32
 ```
 __Joomla - JOOMSCAN__
 Joomla is a CMS which can be enumerated with JOOMSCAN.

@@ -59,7 +59,7 @@ Before we fire up hydra we should know some needed arguments such below:
   * Form parameters : “For general, use tamper data or proxy to obtain form of request parameters. It's possible to capture these information as wel with the developer tools in the browser.”
   * Service module : http-post-form
 
-When the login page is loaded, open the developer tools with F12 in your broswer. Open the network tab and there are only get request yet, because nothing was posted to the server.
+When the login page is loaded, open the developer tools with F12 in your broswer. Open the network tab and there are only get request yet, because nothing was posted to the server. 
 Enter a username and password and press the logon button to submit the data.
 ![Developer tools](../img/hydra/hydra-webpage-login1.png?raw=true "Open developer tools")
 
