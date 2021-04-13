@@ -90,6 +90,8 @@ Timing and Performance
 
 NSE Scripts
 ---------
+**All NSE scripts are in this path :  /usr/share/nmap/scripts**
+
 | Switch            | Example                                                                   | Description                                                               |
 | ----------------- |---------------------------------------------------------------------------| --------------------------------------------------------------------------|
 | -sC               | nmap 192.168.1.1 -sC                                                      | Scan with default NSE scripts. Considered useful for discovery and safe   |
