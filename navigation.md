@@ -19,7 +19,7 @@
 [3. Identify Vulnerabilities]()
 
   * [Nessus](.md)
-  * [Openvas](.md)
+  * [Openvas](openvas.md)
   * [NMAP](.md)
 
 [4. Exploitation]()
