@@ -55,6 +55,7 @@ NTP enumeration
 ---------
 The Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks. 
 Default port: 123 
+
 **Which information could be obtained via NTP?**
 
   * List of hosts connected to NTP server
