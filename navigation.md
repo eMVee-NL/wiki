@@ -10,6 +10,7 @@
   * # Remote enumeration
   * [IP](ip-scanning.md)
   * [Port](port-scanning.md)
+  * [Techniques and tools](Enumeration/enumeration-techniques.md)
   * # Web enumeration
   * [Web](Enumeration/Web/web-enumeration.md)
   * # Local enumeration
