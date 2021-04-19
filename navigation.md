@@ -34,6 +34,12 @@
   * # Windows
   * [Windows]()
   * [CrackMapExec]()
+  - - - -
+  * # Passwords
+  * [Generate passwordlists](Exploitation/password-generation.md)
+  * [Default passwords](Passwords/default-passwords.md)
+  * [Crack password hashes](Exploitation/password-cracking.md)
+  * [Check hashes online](Passwords/check-hashes-online.md)
 
 [5. Post Exploitation]()
   
@@ -47,22 +53,6 @@
   * [winPeas](subitem3.md)
 
 [6. Cover Your Tracks]()
-
-[Passwords]()
-  
-  * [Wordlists](Passwords/wordlists.md)
-  * # Generate
-  * [CeWL](Passwords/cewl.md)
-  * [Crunch](Passwords/crunch.md)
-  - - - -
-  * # Bruteforce
-  * [Identify hash](Passwords/hash-identify.md)
-  * [Hashcat](Passwords/hashcat.md)
-  * [John](Passwords/john.md)
-  * [ZIP](Passwords/zip.md)
-  * # Public
-  * [Default passwords](Passwords/default-passwords.md)
-  * [Check hashes online](Passwords/check-hashes-online.md)
 
 [WiFi]()
   
@@ -85,9 +75,11 @@
   
 [Tools]()
   
-  * [Burp Suite](burpsuite.md)
+  * [Burp Suite](Tools/burpsuite.md)
   * [Hydra](Tools/hydra.md)
   * [Wireshark](Tools/wireshark.md)
+  * [Visual Studio](Tools/visual-studio.md)
+  * [View Your Mind (VYM)](Tools/vym.md)
 
 [Physical attack]()
   
