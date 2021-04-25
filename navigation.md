@@ -29,7 +29,7 @@
   * [Webshells](webshells.md)
   - - - -  
   * # Linux
-  * [Linux]()
+  * [Linux](Enumeration/Linux/linux.md)
   - - - -
   * # Windows
   * [Windows]()
@@ -44,7 +44,7 @@
 [5. Post Exploitation]()
   
   * # Linux
-  * [Privelege escalation](.md)
+  * [Privilege escalation](Post-Exploitation/Linux/privilege-escalation.md)
   * [linEnum](subitem1.md)
   * [linPeas](subitem2.md)
   - - - -
